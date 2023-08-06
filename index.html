@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" >
+    <title>VULTUR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <!-- nav start -->
+    <section class="p-3">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="image/logo.png" alt="" class="ms-5 logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#smallheader">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="smallheader">
+                <div class="input-group ms-4 hsearch"  >
+                    <input type="text" class="form-control border-0 htsearch" placeholder="Search course">
+                    <a href="" class="input-group-text btn btn-outline-success border-0"><i class="bi bi-search"></i></a>
+                </div>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+                  <li class="nav-item ms-5">
+                    <!-- <a class="nav-link active" aria-current="page" href="#"><b>Home</b></a> -->
+                    <div class="dropdown">
+                      <a class="dropdown-toggle nav-link" href="#"  data-bs-toggle="dropdown" aria-expanded="false">
+                        <b>Home</b>
+                      </a>
+                    
+                      <ul class="dropdown-menu rounded-0">
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="nav-item ms-4">
+                    <!-- <a class="nav-link" href="#"><b>Page</b></a> -->
+                    <div class="dropdown">
+                      <a class="dropdown-toggle nav-link" href="#"  data-bs-toggle="dropdown" aria-expanded="false">
+                        <b>Page</b>
+                      </a>
+                    
+                      <ul class="dropdown-menu rounded-0">
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown ms-4">
+                    <!-- <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                      <b>Courses</b>
+                    </a> -->
+                    <div class="dropdown">
+                      <a class="dropdown-toggle nav-link" href="#"  data-bs-toggle="dropdown" aria-expanded="false">
+                        <b>Courses</b>
+                      </a>
+                    
+                      <ul class="dropdown-menu rounded-0">
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="nav-item ms-4">
+                    <!-- <a class="nav-link" href="#"><b>Blog</b></a> -->
+                    <div class="dropdown">
+                      <a class="dropdown-toggle nav-link" href="#"  data-bs-toggle="dropdown" aria-expanded="false">
+                        <b>Blog</b>
+                      </a>
+                    
+                      <ul class="dropdown-menu rounded-0">
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="nav-item ms-4">
+                    <!-- <a class="nav-link" href="#"><b>Shop</b></a> -->
+                    <div class="dropdown">
+                      <a class="dropdown-toggle nav-link" href="#"  data-bs-toggle="dropdown" aria-expanded="false">
+                        <b>Shop</b>
+                      </a>
+                    
+                      <ul class="dropdown-menu rounded-0">
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="nav-item ms-4">
+                    <!-- <a class="nav-link" href="#"><b>Contact</b></a> -->
+                    <div class="dropdown">
+                      <a class="dropdown-toggle nav-link" href="#"  data-bs-toggle="dropdown" aria-expanded="false">
+                        <b>Contact</b>
+                      </a>
+                    
+                      <ul class="dropdown-menu rounded-0">
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                        <li class="nav-arrow"><a class="dropdown-item" href="#"><i class="bi bi-arrow-right-short fs-3"></i> <span>Action</span></a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="nav-item ms-4">
+                    <a  class=" position-relative ">
+                        <i class="bi bi-bag-fill text-dark"></i>
+                        <span class="position-absolute top-100 start-70 translate-middle p-2 bg-success border border-light rounded-circle">
+                          <span class="visually-hidden">New alerts</span>
+                        </span>
+                    </a>
+                  </li>
+                </ul>
+                
+              </div>
+            </div>
+        </nav>
+    </section>
+    <!-- nav  end   -->
+
+    <!-- hero start  -->
+    <section>
+      <div class="container-fluid hero text-white py-5">
+        <div class="row py-5">
+          <div class="col-lg-8">
+            <div class="row ms-5 py-5">
+              <div class="col-lg">
+                <p><strong class="h5">  LIFEBUILDING EDUCATION</strong></p>
+                <b><p class="h1 home1 mt-2">More Than 25K+ <br>Edu Courses Online</p></b>
+                <p class="h6 mt-3">Choose from over 250,000 online video courses with new <br> additions published every month, high quality courses.</p>
+                <div class="row">
+                  <div class="col-lg-7">
+                    <div class="row mt-5">
+                      <div class="col circle-container"><a href="" class="btn  btn-lg herobtn rounded-0 me-3">Get Start Now →</a>
+                        <div class="circle">
+                          <span>
+                            <button class="btn_ripple ms-4" >
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                              </svg>
+                            </button>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero close -->
+    <!-- about start -->
+    <section>
+      <div class="container py-5 ">
+        <div class="row mt-5">
+          <div class="col-lg-6">
+            <img src="image/about.png" alt="" class="img-fluid ">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="about  mt-5">ABOUT</h1>
+            <p class="h2 habout">Coach Online Courses & LMS Education WordPress Theme</p>
+            <p class="mt-2 fs-6 abp">Get best rated theme for Coach Online Courses & LMS Education WordPress. Start Your Professional WP Coaching Site Now! Let’s Create Something new and awesome Togeather. High Performance WordPress Theme. Let’s Create Something new and awesome Togeather & Best Services..</p>
+            <p><i class="bi bi-arrow-right-circle greicon me-3"></i>High Quality Education Video</p>
+            <p><i class="bi bi-arrow-right-circle greicon me-3"></i>You can learn anything online</p>
+            <p><i class="bi bi-arrow-right-circle greicon me-3"></i> We list your options by state</p>
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="row py-5">
+                  <div class="col">
+                    <a href="" class="btn  btn-lg aboutbtn1 border-0 rounded-0"><span class="h6">Start Here →</span></a>
+                    <a href="" class="btn  btn-lg aboutbtn2 border-0 rounded-0 ms-3"><span class="h6">Learn More</span></a></div>
+                  <!-- <div class="col"><a href="" class="btn  btn-lg aboutbtn2 border-0 rounded-0"><span class="h6">Learn More</span></a></div> -->
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about end -->
+    <!-- courses start -->
+    <section>
+      <div class="container-fluid py-5 bgcourses">
+        <div class="container">
+        <div class="row">
+          <div class="col-lg-11">
+            <h1 class="about  mt-5">COURSES</h1>
+            <p class="fs-2 courseshead habout">Explore Popular Courses</p>
+          </div>
+          <div class="col-lg-1" style="padding-top: 70px;">
+            <a href="" class="btn btn-lg aboutbtn1 border-0 rounded-0"  ><b ><small>more→</small></b></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 mt-4 hoverimg">
+            <div class="card border-0 card1" >
+              <div class="hoverimg">
+              <img class="card-img-top img-fluid position-relative " src="image/c1.jpg" >
+              <span class="position-absolute top-0 badge start-0 rounded-0  ms-4 c1">
+                <span class="">ANGULAR</span>
+              </div>
+              <div class="card-body p-3">
+                <h5 class="card-title">$99.00</h5>
+                <p class="card-text"><p class="h3 c2">Visual Basic Web Course With Live Project</p></p>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <span class="text-dark ms-2">5.1(1 rating)</span>
+                <div class="mt-3"><i class="bi bi-journal-text"></i><span class="ms-2"> 8 Lessons</span>
+                <i class="bi bi-person ms-4"></i><span class="ms-2"> 96 Students</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4  mt-4 hoverimg">
+            <div class="card border-0 card1" >
+              <div class="hoverimg">
+              <img class="card-img-top img-fluid position-relative" src="image/c2.jpg" >
+              <span class="position-absolute top-0 badge start-0 rounded-0  ms-4 c1">
+                <span class="">WORDPRESS</span>
+              </div>
+              <div class="card-body p-3">
+                <h5 class="card-title">$49.00</h5>
+                <p class="card-text"><p class="h3 c2">Become the PHP Master faster with Vultur</p></p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <span class="text-dark ms-2">4.1(2 rating)</span>
+                <div class="mt-3"><i class="bi bi-journal-text"></i><span class="ms-2"> 8 Lessons</span>
+                <i class="bi bi-person ms-4"></i><span class="ms-2"> 961 Students</span></div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4  mt-4 hoverimg">
+            <div class="card border-0 card1 " >
+              <div class="hoverimg">
+              <img class="card-img-top img-fluid position-relative" src="image/c3.jpg" >
+              <span class="position-absolute top-0 badge start-0 rounded-0  ms-4 c1">
+                <span class="">ANIMATION</span>
+              </div>
+              <div class="card-body p-3">
+                <h5 class="card-title">$299.00</h5>
+                <p class="card-text"><p class="h3 c2">The Complete SQL Data Coaching Course</p></p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <span class="text-dark ms-2">5.3(10 rating)</span>
+                <div class="mt-3"><i class="bi bi-journal-text"></i><span class="ms-2"> 3 Lessons</span>
+                <i class="bi bi-person ms-4"></i><span class="ms-2"> 67 Students</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4  mt-4 hoverimg">
+            <div class="card border-0 card1" >
+              <div class="hoverimg">
+              <img class="card-img-top img-fluid position-relative" src="image/c4.jpg" >
+              <span class="position-absolute top-0 badge start-0 rounded-0  ms-4 c1">
+                <span class="">ANGULAR</span>
+              </div>
+              <div class="card-body p-3">
+                <h5 class="card-title">$99.00</h5>
+                <p class="card-text"><p class="h3 c2">Become the Vue Master faster with Vultur</p></p>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <span class="text-dark ms-2">5.1(1 rating)</span>
+                <div class="mt-3"><i class="bi bi-journal-text"></i><span class="ms-2"> 8 Lessons</span>
+                <i class="bi bi-person ms-4"></i><span class="ms-2"> 96 Students</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4  mt-4 hoverimg">
+            <div class="card border-0 card1" >
+              <div class="hoverimg">
+              <img class="card-img-top img-fluid position-relative" src="image/c5.jpg" >
+              <span class="position-absolute top-0 badge start-0 rounded-0  ms-4 c1">
+                <span class="">WORDPRESS</span>
+              </div>
+              <div class="card-body p-3">
+                <h5 class="card-title">$49.00</h5>
+                <p class="card-text"><p class="h3 c2">Introduction to network coaching course</p></p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <span class="text-dark ms-2">4.1(2 rating)</span>
+                <div class="mt-3"><i class="bi bi-journal-text"></i><span class="ms-2"> 8 Lessons</span>
+                <i class="bi bi-person ms-4"></i><span class="ms-2"> 961 Students</span></div>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4  mt-4 hoverimg">
+            <div class="card border-0 card1" >
+              <div class="hoverimg">
+              <img class="card-img-top img-fluid position-relative" src="image/c6.jpg" >
+              <span class="position-absolute top-0 badge start-0 rounded-0  ms-4 c1">
+                <span class="">ANIMATION</span>
+              </div>
+              <div class="card-body p-3">
+                <h5 class="card-title">$299.00</h5>
+                <p class="card-text"><p class="h3 c2">Learn Python Interactive Tutorial Online</p></p>
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <span class="text-dark ms-2">5.3(10 rating)</span>
+                <div class="mt-3"><i class="bi bi-journal-text"></i><span class="ms-2"> 3 Lessons</span>
+                <i class="bi bi-person ms-4"></i><span class="ms-2"> 67 Students</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+<!-- trending start -->
+<section>
+  <div class="container   text-center py-5" >
+    <h1 class="about">TRENDING</h1>
+    <p class="h2 habout">Popular Courses Categories</p>
+    <p class="mt-2 fs-6 abp">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium totam <br>
+      rem doloremque laudantium, totam rem aperiam, eaque ipsa natus error sit.</p>
+
+
+      <div class="row">
+        <div class="col-lg-3  mt-5">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front" style="background-image: url(image/t1.jpg);">
+                <div class="imgoverlay">
+                <div class="py-5">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-telegram bi-trend mt-5" viewBox="0 0 16 16">
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+                  </svg>
+                  <p><b class="fs-1 text-white mt-2">Coding</b></p>
+                </div>
+              </div>
+              </div>
+              <div class="flip-card-back" style="background-image: url(image/t1.jpg);">
+                <div class="imgoverlay">
+                <div class="py-5">
+                  <div class="py-5">
+                    <b class="text-white mt-4">685 Online Courses</b>
+                  <p><a href="" class="btn trendbtn mt-4">View all</a></p>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mt-5 ">
+          <div class="flip-card ">
+            <div class="flip-card-inner">
+              <div class="flip-card-front" style="background-image: url(image/t2.jpg);">
+                <div class="imgoverlay">
+                <div class="py-5">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-telegram bi-trend mt-5" viewBox="0 0 16 16">
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+                  </svg>
+                  <p><b class="fs-1 text-white mt-2">Creative</b></p>
+                </div>
+                </div>
+              </div>
+              <div class="flip-card-back" style="background-image: url(image/t2.jpg);">
+                <div class="imgoverlay">
+                <div class="py-5">
+                  <div class="py-5">
+                    <b class="text-white mt-4">685 Online Courses</b>
+                  <p><a href="" class="btn trendbtn mt-4">View all</a></p>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mt-5 ">
+          <div class="flip-card ">
+            <div class="flip-card-inner">
+              <div class="flip-card-front" style="background-image: url(image/t3.jpg);">
+                <div class="imgoverlay">
+                <div class="py-5 ">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class=" bi bi-journal-text bi-trend " viewBox="0 0 16 16">
+                    <path d="M5 10.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0-2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+                    <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
+                    <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
+                  </svg>
+                  <p><b class="fs-1 text-white mt-2">Business</b></p>
+                </div>
+                </div>
+              </div>
+              <div class="flip-card-back" style="background-image: url(image/t3.jpg);">
+                <div class="imgoverlay">
+                <div class="py-5">
+                  <div class="py-5">
+                    <b class="text-white mt-4">685 Online Courses</b>
+                  <p><a href="" class="btn trendbtn mt-4">View all</a></p>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mt-5 ">
+          <div class="flip-card ">
+            <div class="flip-card-inner">
+              <div class="flip-card-front" style="background-image: url(image/t4.jpg);">
+                <div class="imgoverlay">
+                <div class="py-5">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="90" height="70" fill="currentColor" class="bi bi-bar-chart-line-fill  bi-trend" viewBox="0 0 16 16">
+                    <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2z"/>
+                  </svg>
+                  <p><b class="fs-1 text-white mt-2">Technology</b></p>
+                </div>
+                </div>
+              </div>
+              <div class="flip-card-back" style="background-image: url(image/t4.jpg);">
+                <div class="imgoverlay">
+                <div class="py-5">
+                  <div class="py-5">
+                    <b class="text-white mt-4">685 Online Courses</b>
+                  <p><a href="" class="btn trendbtn mt-4">View all</a></p>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3  mt-5">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front" style="background-image: url(image/t5.jpg);">
+                <div class="imgoverlay">
+                <div class="py-5">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="90" height="70" fill="currentColor" class="bi  bi-trend bi-camera-fill" viewBox="0 0 16 16">
+                    <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                    <path d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z"/>
+                  </svg>
+                  <p><b class="fs-1 text-white mt-2">Photography</b></p>
+                </div>
+                </div>
+              </div>
+              <div class="flip-card-back" style="background-image: url(image/t5.jpg);">
+                <div class="imgoverlay">
+                <div class="py-5">
+                  <div class="py-5">
+                    <b class="text-white mt-4">685 Online Courses</b>
+                  <p><a href="" class="btn trendbtn mt-4">View all</a></p>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mt-5 ">
+          <div class="flip-card ">
+            <div class="flip-card-inner">
+              <div class="flip-card-front" style="background-image: url(image/t6.jpg);">
+                <div class="imgoverlay">
+                <div class="py-5">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="90" height="70" fill="currentColor" class="bi  bi-trend bi-file-earmark-code-fill" viewBox="0 0 16 16">
+                    <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zM6.646 7.646a.5.5 0 1 1 .708.708L5.707 10l1.647 1.646a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708l2-2zm2.708 0 2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L10.293 10 8.646 8.354a.5.5 0 1 1 .708-.708z"/>
+                  </svg>
+                  <p><b class="fs-1 text-white mt-2">IT & Software</b></p>
+                </div></div>
+              </div>
+              <div class="flip-card-back" style="background-image: url(image/t6.jpg);">
+                <div class="imgoverlay">
+                <div class="py-5">
+                  <div class="py-5">
+                    <b class="text-white mt-4">685 Online Courses</b>
+                  <p><a href="" class="btn trendbtn mt-4">View all</a></p>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mt-5 ">
+          <div class="flip-card ">
+            <div class="flip-card-inner">
+              <div class="flip-card-front" style="background-image: url(image/t7.jpg);">
+                <div class="imgoverlay">
+                <div class="py-5">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="90" height="70" fill="currentColor" class="bi  bi-trend bi-camera-fill" viewBox="0 0 16 16">
+                    <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                    <path d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2zm.5 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z"/>
+                  </svg>
+                  <p><b class="fs-1 text-white mt-2">Creative</b></p>
+                </div>
+              </div>
+              </div>
+              <div class="flip-card-back" style="background-image: url(image/t7.jpg);">
+                <div class="imgoverlay">
+                <div class="py-5">
+                  <div class="py-5">
+                    <b class="text-white mt-4">685 Online Courses</b>
+                  <p><a href="" class="btn trendbtn mt-4">View all</a></p>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mt-5 ">
+          <div class="flip-card ">
+            <div class="flip-card-inner">
+              <div class="flip-card-front" style="background-image: url(image/t8.jpg);">
+                <div class="imgoverlay">
+                <div class="py-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-telegram bi-trend mt-5" viewBox="0 0 16 16">
+                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+                  </svg>
+                  <p><b class="fs-1 text-white mt-2">Coding</b></p>
+                </div>
+                </div>
+              </div>
+              <div class="flip-card-back" style="background-image: url(image/t8.jpg);">
+                <div class="imgoverlay">
+                <div class="py-5">
+                  <div class="py-5">
+                    <b class="text-white mt-4">685 Online Courses</b>
+                    <p><a href="" class="btn trendbtn mt-4">View all</a></p>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+  </div>
+</section>
+<!-- trending end -->
+<!-- next section -->
+<section>
+  <div class="container-fluid bg py-5"> 
+    <div class="row text-center py-5">
+      <div class="col-lg-12 mt-3">
+        <h1 class="text-white"><b>Start Growing With Community & <br> </b></h1>
+        <h1 class="text-white mt-2"><b> Experience Endless Possibilities</b></h1>
+        <h4 class="text-white mt-5">and get started with a free 1 month trial for your business</h3>
+      </div>
+      <div>
+        <a href="" class="btn btn-lg trendbtn mt-5"><b></b>Join The Network →</b></a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- next section end -->
+<!-- section -->
+<section>
+  <div class="container py-5">
+    <div class="row mt-5">
+      <div class="col-lg-6 ">
+        <p>LEARN SOMETHING NEW</p>
+        <p class="h1 num">Learn from any location in <br> the world with Vultur Edu</p>
+        <p class="mt-2  abp">Duis consectetur feugiat auctor. Morbi nec enim luctus, feugiat <br> arcu id, ultricies ante. Duis vel massa eleifend, porta est non.</p>
+      </div>
+      <div class="col-lg-5 text-center">
+        <div class="row mt-3">
+          <div class="col-6 ">
+            <b class="h1 num count1"></b>
+            <p class="mt-2">PROGRAM AWARDS</p>
+          </div>
+          <div class="col-6 ">
+            <b class="h1 num count2"></b>
+            <p  class="mt-2">CERTIFIED TEACHERS</p>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-6 ">
+            <b class="h1 num count3"></b>
+            <p class="mt-2">STUDENTS ENROLLED</p>
+          </div>
+          <div class="col-6 ">
+            <b class="h1 num count4"></b>
+            <p class="mt-2">COMPLETE COURSES</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- section end -->
+
+<section>
+  <div class="container py-5">
+    <div class="mb-5">
+      <h1 class="about  mt-5 text-center">TEACHERS</h1>
+    <p class="h2 habout text-center">Meet Our International Teachers</p>
+    </div>
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="card border-0 tcard" >
+          <img class="card-img-top img-fluid position-relative" src="image/tr1.jpg" >
+          <!-- <span class="bi bi-share-fill" style="background-color:  rgb(80, 229, 157); color: rgb(255, 255, 255); padding: 8px; margin-top: 5px;pa"></span> -->
+
+          <div class="card-body p-3">
+            <!-- <h5 class="card-title">$299.00</h5> -->
+            <!-- <p class="card-text"><p class="h3">Learn Python Interactive Tutorial Online</p></p> -->
+            <h3>lona</h3>
+            <p class="trqual">EDUCATION</p>
+            <P><p class="trabt">Sed ut perspiciatis unde omnis iste ut perspiciatis unde omnis iste</p></P>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card border-0 tcard" >
+          <img class="card-img-top img-fluid position-relative" src="image/tr2.jpg" >
+          <div class="card-body p-3">
+            <!-- <h5 class="card-title">$299.00</h5> -->
+            <!-- <p class="card-text"><p class="h3">Learn Python Interactive Tutorial Online</p></p> -->
+            <h3>lona</h3>
+            <p class="trqual">EDUCATION</p>
+            <P><p class="trabt">Sed ut perspiciatis unde omnis iste ut perspiciatis unde omnis iste</p></P>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card border-0 tcard" >
+          <img class="card-img-top img-fluid position-relative" src="image/tr3.jpg" >
+          <div class="card-body p-3">
+            <!-- <h5 class="card-title">$299.00</h5> -->
+            <!-- <p class="card-text"><p class="h3">Learn Python Interactive Tutorial Online</p></p> -->
+            <h3>lona</h3>
+            <p class="trqual">EDUCATION</p>
+            <P><p class="trabt">Sed ut perspiciatis unde omnis iste ut perspiciatis unde omnis iste</p></P>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="card border-0 tcard" >
+          <img class="card-img-top img-fluid position-relative" src="image/tr4.jpg" >
+          <div class="card-body p-3">
+            <!-- <h5 class="card-title">$299.00</h5> -->
+            <!-- <p class="card-text"><p class="h3">Learn Python Interactive Tutorial Online</p></p> -->
+            <h3>lona</h3>
+            <p class="trqual">EDUCATION</p>
+            <P><p class="trabt">Sed ut perspiciatis unde omnis iste ut perspiciatis unde omnis iste</p></P>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- carosal -->
+<section>
+  <div class="container-fluid caro py-5">
+    <div class="container ">
+      <div class="row p-5">
+        <div class="col-lg-7">
+          <div class="row">
+            <div class="col-lg-12 blackcar">
+              <div id="carouselExampleIndicators" class="carousel slide text-white">
+                <div class="carousel-indicators">
+                  <button  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active "></button>
+                  <button  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" ></button>
+                  <button  data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row blackcar">
+                      <div class="col-10 py-5 ms-5" >
+                        <div class="ms-3 mt-3">
+                          <img src="image/carou2.jpg" alt="" >
+                          <p class="mt-5"><strong><strong>I always thought</strong></strong> that people used to pay much for quality. But these guys changed my opinion. The quality exceeds the price many times."</p>
+                          <h4 class="mt-5">AJOSH</h4>
+                          <P>Developer</P>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item blackcar">
+                    <div class="row blackcar">
+                      <div class="col-10 py-5 ms-5" >
+                        <div class="ms-3 mt-3">
+                          <img src="image/caro.jpg" alt="" >
+                          <p class="mt-5"><strong><strong>I always thought</strong></strong> that people used to pay much for quality. But these guys changed my opinion. The quality exceeds the price many times."</p>
+                          <h4 class="mt-5">AJOSH</h4>
+                          <P>Developer</P>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item blackcar">
+                    <div class="row blackcar">
+                      <div class="col-10 py-5 ms-5" >
+                        <div class="ms-3 mt-3">
+                          <img src="image/carou2.jpg" alt="" >
+                          <p class="mt-5"><strong><strong>I always thought</strong></strong> that people used to pay much for quality. But these guys changed my opinion. The quality exceeds the price many times."</p>
+                          <h4 class="mt-5">AJOSH</h4>
+                          <P>Developer</P>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="bi bi-arrow-left-circle arrow1 me-3" ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="bi bi-arrow-right-circle ms-3 arrow " aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+<!-- end carousal -->
+<!-- news start -->
+<section>
+  <div class="container-fluid bgcourses py-5">
+    <div class="container">
+      <h1 class="about  mt-5 text-center">NEWS</h1>
+            <p class="h2 habout text-center">Explore Recent News</p>
+      <div class="row">
+      <div class="col-lg-4 mt-4">
+        <div class="card border-0" >
+          <div class="hoverimg">
+          <img class="card-img-top img-fluid position-relative " src="image/n1.jpg" >
+          </div>
+          <div class="card-body p-3">
+            <div class="mt-3">
+              <i class="bi bi-calendar3 ms-3"></i><span class="ms-2"> <small>may 8</small></span>
+              <i class="bi bi-person ms-4 "></i><span class="ms-2"><small> Loan Droda</small></span>
+              <i class="bi bi-chat-dots ms-4"></i><span class="ms-2"><small> 17096</small></span>
+
+            </div>
+            <p class="card-text"><p class="h3 c2">We provide exclusive git coaching courses</p></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mt-4">
+        <div class="card border-0" >
+          <div class="hoverimg">
+          <img class="card-img-top img-fluid position-relative " src="image/n2.jpg" >
+          </div>
+          <div class="card-body p-3">
+            <div class="mt-3">
+              <i class="bi bi-calendar3 ms-3"></i><span class="ms-2"> <small>may 8</small></span>
+              <i class="bi bi-person ms-4 "></i><span class="ms-2"><small> Loan Droda</small></span>
+              <i class="bi bi-chat-dots ms-4"></i><span class="ms-2"><small> 17096</small></span>
+
+            </div>
+            <p class="card-text"><p class="h3 c2">We provide exclusive git coaching courses</p></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mt-4">
+        <div class="card border-0" >
+          <div class="hoverimg">
+          <img class="card-img-top img-fluid position-relative " src="image/n3.jpg" >
+          </div>
+          <div class="card-body p-3">
+            <div class="mt-3">
+              <i class="bi bi-calendar3 ms-3"></i><span class="ms-2"> <small>may 8</small></span>
+              <i class="bi bi-person ms-4 "></i><span class="ms-2"><small> Loan Droda</small></span>
+              <i class="bi bi-chat-dots ms-4"></i><span class="ms-2"><small> 17096</small></span>
+
+            </div>
+            <p class="card-text"><p class="h3 c2">We provide exclusive git coaching courses</p></p>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- news end -->
+<!-- news letter -->
+<section class="py-5">
+  <div class="container-fluid letter">
+    <p class="h2 num text-center">Sign Up For Our Newsletter</p>
+    <p class="mt-3 fs-5 abp text-center"><i>He found himself transformed in his bed into a horrible vermin.</i></p>
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-4">
+          <div class="row align-items-center">
+            <div class="col p-5">
+              <div class="input-group ms-5 hsearch"  >
+                <input type="email" class="form-control border-0 signup" placeholder="Your email address">
+                <a href="" class="input-group-text btn btn-outline-success border-0 trendbtn">Sign up</a>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+
+<!-- letter end-->
+<!-- footer -->
+<section>
+  <div class="container-fluid bg-dark  text-white">
+    <div class="container ">
+      <div class="row ">
+      <div class="col-lg-12">
+        <div class="row mt-5">
+          <div class="col">
+            <img src="image/logo2.png" alt="" style="height: 40px;">
+            <p class="text-white mt-3">We build powerful and easy to use <br> WordPress Themes, sell high quality <br> coaching courses online.</p>
+            <i class="bi bi-youtube text-white"></i>
+            <i class="bi bi-instagram text-white ms-3"></i>
+            <i class="bi bi-facebook text-white ms-3"></i>
+            <i class="bi bi-linkedin text-white ms-3"></i>
+          </div>
+          <div class="col">
+            <h4><b >Explore Courses</b></h4>
+            <p class="mt-4"><b><a href="" class="text-decoration-none foot">Become a Teacher</a></b></p>
+            <p class="mt-1"><b><a href="" class="text-decoration-none foot">Home Coaching</a></b></p>
+            <p class="mt-1"><b><a href="" class="text-decoration-none foot">About Us</a></b></p>
+            <p class="mt-1"><b><a href="" class="text-decoration-none foot">Contact</a></b></p>
+            <p class="mt-1"><b><a href="" class="text-decoration-none foot">Let's work togather</a></b></p>
+          </div>
+          <div class="col">
+            <h4><b >Company Links</b></h4>
+            <p class="mt-4"><b><a href="" class="text-decoration-none foot">Booking Form</a></b></p>
+            <p class="mt-1"><b><a href="" class="text-decoration-none foot">My account</a></b></p>
+            <p class="mt-1"><b><a href="" class="text-decoration-none foot">Services Details</a></b></p>
+            <p class="mt-1"><b><a href="" class="text-decoration-none foot">Contact</a></b></p>
+            <p class="mt-1"><b><a href="" class="text-decoration-none foot">Let's work togather</a></b></p>
+          </div>
+          <div class="col">
+            <h4><b >Contact Us</b></h4>
+           <p class="mt-4 foot"><i class="bi bi-geo-alt-fill text-success"></i>No.123 Chalingt Gates, Supper 
+             market New York</p>
+           <p class="mt-2 foot"><i class="bi bi-envelope-open text-success "></i>support@gmail.com</p>
+           <p class="mt-2 foot"><i class="bi bi-telephone-fill text-success"></i>+012 (4567) 789</p>
+          </div>
+        </div>
+      </div>
+      <hr class="mt-5">
+      </div>
+    </div>
+    <div class="row mt-2">
+      <p class="text-center">Copyright © 2023 Vultur Designed by <b>Ajosh V Abi</b>. All Rights Reserved</p>
+    </div>
+  </div>
+</section>
+
+    
+<!-- <i class="bi bi-youtube"></i>
+<i class="bi bi-instagram"></i>
+<i class="bi bi-facebook"></i>
+<i class="bi bi-linkedin"></i> -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

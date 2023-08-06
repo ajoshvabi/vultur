@@ -1,0 +1,484 @@
+.logo{
+    max-height: 55px;
+    height: auto;
+}
+.hsearch{
+    background-color:#ececec!important ;
+    width: 250px;
+    color: #60974c;
+}
+.signup{
+    background-color:#f9f9f9!important ;
+    width: 800px;
+    height: 40px;
+}
+.htsearch{
+    background-color:#ececec!important ;
+}
+
+.hero{
+    background-image: url(image/home1.jpg);
+    /* height: 100vh;
+    background-repeat: no-repeat;
+    
+        background-position: center center;
+    background-repeat: no-repeat no-repeat;
+    z-index: 1; */
+        /* padding: 12% 0px 12% 0px; */
+    position: relative;
+    background-size: cover;
+    /* width: 100%; */
+    /* height: 100vh; */
+    background-position: center center;
+    background-repeat: no-repeat no-repeat;
+    z-index: 1;
+   
+}
+.home1{
+    font-weight:950;
+    font-size: 55px;
+}
+.herobtn{
+    background-color: #20ad95;
+    color: white;
+    font-weight:500;
+    transition: 0.3s;
+    
+    /* #005a87 */
+}
+.herobtn:hover{
+    background-color: #dc3545;
+}
+
+.boldeee{
+    font-weight: 700;
+    color: #005a87;
+    /* margin-top: -60px; */
+}
+.num{
+    font-weight: 1000;
+    color: #005a87;
+    /* margin-top: -60px; */
+}
+.abp{
+    line-height: 2;
+    font-weight: 400;
+}
+.greicon{
+    color: #20ad95;
+    font-weight: 700;
+}
+.aboutbtn1{
+    background-color: #20ad95;
+    color: white;
+    font-weight:500;
+    transition: 0.9s;
+    
+}
+.aboutbtn1:hover{
+    background-color: #005a87;
+    color: white;
+}
+.aboutbtn2{
+    background-color: #eaeff7;
+    color: black;
+    font-weight:500;
+    transition: 0.3s;
+}
+.aboutbtn2:hover{
+    background-color: #eaeff7;
+    color: rgb(80, 229, 157);
+    transition: 0.3s;
+}
+.courseshead{
+    font-weight: 700;
+    margin-top: -70PX;
+}
+/* .coursebg{
+    background-color: ;
+} */
+/* .card-text{
+    font-weight: 800;
+    font-size: 15px;
+} */
+/* .card{
+    overflow: hidden;
+} */
+.card1:hover{
+    transition: 0.4s;
+    box-shadow: 3px -1px 32px 3px rgba(0,0,0,0.42);
+-webkit-box-shadow: 3px -1px 32px 3px rgba(0,0,0,0.42);
+-moz-box-shadow: 3px -1px 32px 3px rgba(0,0,0,0.42);
+}
+.c1{
+    background-color: #ff7029;
+    transition: all 0.3s ease;
+}
+.c1:hover{
+    background-color:rgb(80, 229, 157); ;
+}
+.c2{
+    font-weight: 620;
+}
+.c2:hover{
+    transition: 0.4s;
+    color: rgb(80, 229, 157);
+}
+
+
+.card-title{
+    font-weight: 800;
+    color: rgb(52, 177, 116);
+}
+
+.bi-star-fill{
+    color: #d8cf13;
+}
+.bgcourses{
+    background-color: rgb(246, 246, 246);
+}
+.hoverimg{
+    overflow: hidden;
+}
+.hoverimg img{
+    transition: all 2.5s ease;
+}
+.hoverimg:hover img{
+    object-fit: cover;
+    /* zoom: 2.5; */
+    
+    transform: scale(1.2); 
+    object-fit: cover;
+  /* overflow: hidden; */
+}
+.about{
+    font-weight: 900;
+    font-size: 90px;
+    color: white;
+    text-shadow: 
+    1px 0px 0px rgba(0, 0, 0, 0.398),   /* Right shadow */
+    -1px 0px 0px rgba(0, 0, 0, 0.398),  /* Left shadow */
+    0px 1px 0px rgba(0, 0, 0, 0.398),   /* Bottom shadow */
+    0px -1px 0px rgba(0, 0, 0, 0.398);  /* Top shadow */
+    opacity: 0.;
+    margin-left: -30px;
+}
+.habout{
+    font-weight: 700;
+    color: #005a87;
+    margin-top: -60px;
+}
+/* chuma */
+/* Style for the circle container */
+.circle-container {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* height: 100vh; */
+  }
+  
+  /* Style for the initial circle */
+  .circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* background-color: rgb(227, 29, 29); */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Animation keyframes for the growing circle */
+  @keyframes grow {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.09);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Apply the animation to the circle element */
+  .circle {
+    animation: grow 2s infinite;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /* flip */
+  .flip-card {
+    background-color: transparent;
+    /* width: 300px; */
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(-180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    position: absolute;
+    background-position: center center;
+    /* box-shadow: 35px 12px 400px -98px rgba(0,0,0,0.5) inset;
+-webkit-box-shadow: 35px 12px 400px -98px rgba(0,0,0,0.5) inset;
+-moz-box-shadow: 35px 12px 400px -98px rgba(0,0,0,0.5) inset; */
+/* background-color: #000000; */
+
+
+    
+  }
+  
+  .flip-card-back {
+    position: absolute;
+    background-position: center center;
+    transform: rotateY(180deg);
+  }
+
+  .imgoverlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.463);
+  }
+
+
+
+  .trendbtn{
+    background-color: rgb(80, 229, 157);
+    color: white;
+    transition: 0.5s;
+  }
+  .trendbtn:hover{
+    background-color: white;
+    color: black;
+  }
+  .bi-trend{
+    /* color: rgba(0, 0, 0, 0.5); */
+    color: rgb(255, 255, 255);
+    /* border-radius: 50%; */
+    /* background-color: rgb(0, 0, 0); */
+    margin-top: 40px;
+    opacity: 0.9;
+
+  }
+
+  .bg{
+    background-image: url(image/bg.jpg);
+    /* height: 80vh; */
+  }
+
+  .letter{
+    background-image: url(image/newsletter.png);
+    /* height: 30vh; */
+    background-position: center center;
+  }
+
+
+
+
+  .btn_ripple { 
+  width: 50px; 
+  height: 50px; 
+  border-radius: 50%; 
+  display: block; 
+  background-color: #ffffff; 
+  color: #403b66; 
+  display: grid; 
+  place-items: center; 
+  font-size: 16px; 
+  cursor: pointer; 
+  border: 2px solid #fff; 
+  animation-name: ripple; 
+  animation-duration: 1.5s; 
+  animation-iteration-count: infinite; 
+} 
+ 
+@keyframes ripple { 
+  0% { 
+      box-shadow: 0 0 0 0 #fff4, 0 0 0 0 #fff4; 
+  } 
+ 
+  80% { 
+      box-shadow: 0 0 0 20px #fff0, 0 0 0 40px #fff0; 
+  } 
+ 
+  100% { 
+      box-shadow: 0 0 0 0 #fff0, 0 0 0 0 #fff0; 
+  } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  .count1 {
+    transition: --num 0.3s;
+    counter-set: num var(--num);
+    font: 800 40px system-ui;
+  }
+  .count1::after {
+    content: counter(num);
+  }
+  .count1:hover {
+    --num: 649;
+  }
+  
+  .count2 {
+    transition: --num 0.3s;
+    counter-set: num var(--num);
+    font: 800 40px system-ui;
+  }
+  .count2::after {
+    content: counter(num);
+  }
+  .count2:hover {
+    --num: 369;
+  }
+ 
+  
+  .count3 {
+    transition: --num 0.3s;
+    counter-set: num var(--num);
+    font: 800 40px system-ui;
+  }
+  .count3::after {
+    content: counter(num);
+  }
+  .count3:hover {
+    --num: 746;
+  }
+ 
+  .count4 {
+    transition: --num 0.3s;
+    counter-set: num var(--num);
+    font: 800 40px system-ui;
+  }
+  .count4::after {
+    content: counter(num);
+  }
+  .count4:hover {
+    --num: 874;
+  }
+  
+  /* body {
+    margin: 2rem;
+  } */
+
+  .foot{
+    /* margin-left: 20px; */
+    color: rgb(255, 255, 255);
+    /* background-color: #20ad95 */
+    font-weight: 300;
+    transition: 0.4s;
+  }
+  .foot:hover{
+    margin-left: 10px;
+    color: rgb(80, 229, 157);
+    /* background-color: #20ad95 */
+  }
+
+
+  .caro{
+    background-image: url(image/carousal.jpg);
+    background-repeat: no-repeat;
+    /* height: 90vh; */
+  }
+  .blackcar{
+    background-color:rgba(25, 31, 35, 0.98);
+    /* height: 70vh; */
+  }
+  .blackcar img{
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+  }
+  .arrow{
+    margin-top: 15rem;
+    margin-right: 20rem;
+  }
+  .arrow1{
+    margin-top: 15rem;
+    margin-left: 40rem;
+  }
+
+  .bi-arrow-right-short{
+    color:transparent;
+    height: 100px;
+    margin-left: -25px;
+    /* margin-top: 100px; */
+  
+    
+  }
+  .nav-arrow i{
+    /* color:  rgb(80, 229, 157);
+    margin-left: 3px; */
+    transition: all 0.4s ease;
+  }
+  
+  .nav-arrow:hover i{
+    color:  rgb(80, 229, 157);
+    margin-left: 3px;
+    /* transition: all 0.4s ease; */
+  }
+
+
+  .trqual{
+    color:  rgb(80, 229, 157);
+    font-weight: 600;
+  }
+  .trabt{
+    line-height: 30px;
+    font-weight: 350;
+  }
+  .tcard{
+    background-color: #f8f8f8;
+  }
