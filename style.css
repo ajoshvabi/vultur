@@ -805,6 +805,15 @@
   background-color: #ff7029;
   color: white;
 }
+.shopbg{
+  background-image: url(https://vultur.drozd.at/wp-content/uploads/2020/01/breadcrumb-shop.jpg);
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat no-repeat;
+  z-index: 1;
+  height: 100%;
+}
 @media only screen and (max-width: 600px) {
   .abticon {
     /* justify-content: center; */
