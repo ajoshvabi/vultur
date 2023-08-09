@@ -17,11 +17,18 @@
 }
 
 .hero{
-    background-image: url(assets/image/home1.jpg);
-
+    background-image: url(image/home1.jpg);
+    /* height: 100vh;
+    background-repeat: no-repeat;
+    
+        background-position: center center;
+    background-repeat: no-repeat no-repeat;
+    z-index: 1; */
         /* padding: 12% 0px 12% 0px; */
     position: relative;
     background-size: cover;
+    /* width: 100%; */
+    /* height: 100vh; */
     background-position: center center;
     background-repeat: no-repeat no-repeat;
     z-index: 1;
@@ -36,6 +43,8 @@
     color: white;
     font-weight:500;
     transition: 0.3s;
+    
+    /* #005a87 */
 }
 .herobtn:hover{
     background-color: #dc3545;
@@ -44,10 +53,12 @@
 .boldeee{
     font-weight: 700;
     color: #005a87;
+    /* margin-top: -60px; */
 }
 .num{
     font-weight: 1000;
     color: #005a87;
+    /* margin-top: -60px; */
 }
 .abp{
     line-height: 2;
@@ -83,12 +94,21 @@
     font-weight: 700;
     margin-top: -70PX;
 }
-
+/* .coursebg{
+    background-color: ;
+} */
+/* .card-text{
+    font-weight: 800;
+    font-size: 15px;
+} */
+/* .card{
+    overflow: hidden;
+} */
 .card1:hover{
     transition: 0.4s;
-    box-shadow: 3px -1px 32px 3px rgba(194, 194, 194, 0.42);
-    /* -webkit-box-shadow: 3px -1px 32px 3px rgba(0,0,0,0.42); */
-    -moz-box-shadow: 3px -1px 32px 3px rgba(204, 204, 204, 0.42);
+    box-shadow: 3px -1px 32px 3px rgba(0,0,0,0.42);
+-webkit-box-shadow: 3px -1px 32px 3px rgba(0,0,0,0.42);
+-moz-box-shadow: 3px -1px 32px 3px rgba(0,0,0,0.42);
 }
 .c1{
     background-color: #ff7029;
@@ -133,7 +153,7 @@
 }
 .about{
     font-weight: 900;
-    font-size: 70px;
+    font-size: 90px;
     color: white;
     text-shadow: 
     1px 0px 0px rgba(0, 0, 0, 0.398),   /* Right shadow */
@@ -141,12 +161,12 @@
     0px 1px 0px rgba(0, 0, 0, 0.398),   /* Bottom shadow */
     0px -1px 0px rgba(0, 0, 0, 0.398);  /* Top shadow */
     opacity: 0.;
-    /* margin-left: -30px; */
+    margin-left: -30px;
 }
 .habout{
     font-weight: 700;
     color: #005a87;
-    margin-top: -50px;
+    margin-top: -60px;
 }
 /* chuma */
 /* Style for the circle container */
@@ -255,7 +275,7 @@
 
 
   .trendbtn{
-    background-color: #20ad95;
+    background-color: rgb(80, 229, 157);
     color: white;
     transition: 0.5s;
   }
@@ -317,6 +337,11 @@
       box-shadow: 0 0 0 0 #fff0, 0 0 0 0 #fff0; 
   } 
 }
+
+
+
+
+
 
 
 
@@ -457,343 +482,3 @@
   .tcard{
     background-color: #f8f8f8;
   }
-
-
-
-
-
-
-
-
-
-  /* @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-  } */
-
-
-
-
-
-
-
-
-
-  /* html {
-    font-family: sans-serif;
-    box-sizing: border-box;
-  }
-  
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
-  .text-center {
-    text-align: center;
-  }
-  
-  .color-white {
-    color: #fff;
-  }
-  
-  .box-container {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 35px 15px;
-    width: 100%;
-  }
-  
-  @media screen and (min-width:1380px) {
-    .box-container {
-      flex-direction: row
-    }
-  }
-  
-  .box-item {
-    position: relative;
-    -webkit-backface-visibility: hidden;
-    width: 415px;
-    margin-bottom: 35px;
-    max-width: 100%;
-  }
-  
-  .flip-box {
-    -ms-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    -webkit-transform-style: preserve-3d;
-    perspective: 1000px;
-    -webkit-perspective: 1000px;
-  }
-  
-  .flip-box-front,
-  .flip-box-back {
-    background-size: cover;
-    background-position: center;
-    border-radius: 8px;
-    min-height: 475px;
-    -ms-transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
-    transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
-    -webkit-transition: transform 0.7s cubic-bezier(.4,.2,.2,1);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  
-  .flip-box-front {
-    -ms-transform: rotateY(0deg);
-    -webkit-transform: rotateY(0deg);
-    transform: rotateY(0deg);
-    -webkit-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-  }
-  
-  .flip-box:hover .flip-box-front {
-    -ms-transform: rotateY(-180deg);
-    -webkit-transform: rotateY(-180deg);
-    transform: rotateY(-180deg);
-    -webkit-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-  }
-  
-  .flip-box-back {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    
-    -ms-transform: rotateY(180deg);
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-    -webkit-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-  }
-  
-  .flip-box:hover .flip-box-back {
-    -ms-transform: rotateY(0deg);
-    -webkit-transform: rotateY(0deg);
-    transform: rotateY(0deg);
-    -webkit-transform-style: preserve-3d;
-    -ms-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-  }
-  
-  .flip-box .inner {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    padding: 60px;
-    outline: 1px solid transparent;
-    -webkit-perspective: inherit;
-    perspective: inherit;
-    z-index: 2;
-    
-    transform: translateY(-50%) translateZ(60px) scale(.94);
-    -webkit-transform: translateY(-50%) translateZ(60px) scale(.94);
-    -ms-transform: translateY(-50%) translateZ(60px) scale(.94);
-    top: 50%;
-  }
-  
-  .flip-box-header {
-    font-size: 34px;
-  }
-  
-  .flip-box p {
-    font-size: 20px;
-    line-height: 1.5em;
-  }
-  
-  .flip-box-img {
-    margin-top: 25px;
-  }
-  
-  .flip-box-button {
-    background-color: transparent;
-    border: 2px solid #fff;
-    border-radius: 2px;
-    color: #fff;
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 25px;
-    padding: 15px 20px;
-    text-transform: uppercase;
-  } */
-
-
-
-
-
-
-
-  /* --------------------------------------contact----------------------------- */
-.cherobg{
-  background-image: url(//vultur.drozd.at/wp-content/uploads/2019/11/contact.jpg);
-  position: relative;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat no-repeat;
-  z-index: 1;
-  /* height: 100vh; */
-  /* height: 100%; */
-}
-.cherohead{
-  font-weight: 900;
-  font-size: 50px;
-  /* margin-top: 70px; */
-  object-fit: cover;
-  color: white;
-}
-.contactimg{
-  vertical-align: middle;
-  height: 80%;
-}
-.conimput{
-  background-color: #f6f6f6;
-  padding-left: 15px;
-}
-.contactfadehed{
-  font-weight: 900;
-  font-size: 75px;
-  color: white;
-  text-shadow: 
-  1px 0px 0px rgba(0, 0, 0, 0.398),   /* Right shadow */
-  -1px 0px 0px rgba(0, 0, 0, 0.398),  /* Left shadow */
-  0px 1px 0px rgba(0, 0, 0, 0.398),   /* Bottom shadow */
-  0px -1px 0px rgba(0, 0, 0, 0.398);  /* Top shadow */
-  opacity: 0.;
-  /* margin-left: -30px; */
-}
-.contactbtn{
-  background-color: #20ad95;
-  color: white;
-  width: 200px;
-  height: 40px;
-  padding-top: 8px;
-  transition: all 0.3s ease;
-}
-.contactbtn:hover{
-  background-color: #ff7029 ;
-  color: white;
-}
-.cardimg{
-  height: 100%;
-  position: relative;
-  background-size: cover;
-  background-position: center ;
-  background-repeat: no-repeat no-repeat;
-}
-.cardp{
-  font-weight: 650;
-}
-.cardhed{
-  font-weight: 750;
-}
-/* -----------------------------------contact end--------------------------------------- */
-
-
-/* -------------------------------------------about--------------------------------- */
-.aherobg{
-  background-image: url(https://vultur.drozd.at/wp-content/uploads/2019/12/about-global.jpg);
-  position: relative;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat no-repeat;
-  z-index: 1;
-  /* height: 100vh; */
-  height: 100%;
-}
-.abouthh{
-  font-weight: 800;
-  font-size: 44px;
-  letter-spacing: 3px;
-}
-.abouthp{
-  font-weight: 700;
-  letter-spacing: 6px;
-}
-.abouticon{
-  border-radius: 100%;
-  background-color: rgb(80, 229, 157);
-  color: white;
-}
-.abtseched{
-  font-weight: 700;
-}
-.abtsecp{
-  font-weight: 350;
-  line-height: 30px;
-}
-.thirdsectionhead{
-  color: #005a87;
-  font-weight: 750;
-}
-.lineunder{
-  color: rgb(80, 229, 157);
-  font-weight: 950;
-  font-size: 24px;
-  margin-top: -20px;
-}
-.abtq{
-  color: #005a87;
-  font-weight: 650;
-}
-.abtbanner{
-  background-image: url(assets/image/abtbanner.jpg);
-  position: relative;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat no-repeat;
-  z-index: 1;
-  height: 60vh;
-  /* height: 100%; */
-}
-.abticon{
-  background-color: rgb(80, 229, 157);
-  height: 60px;
-  width: 60px;
-  border-radius: 100%;
-}
-.iconn{
- color: white;
- font-size: x-large;
-}
-/* ----------------------------------------about end -------------------------*/
-
-
-/* ----------------------------------------courses start------------------------- */
-.courherobg{
-  background-image: url(https://vultur.drozd.at/wp-content/uploads/2019/11/subscribe-scaled.jpg);
-  position: relative;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat no-repeat;
-  z-index: 1;
-  /* height: 100vh; */
-  height: 100%;
-}
-
-
-.coureserach{
-  background-color:#ececec!important ;
-  width: 340px;
-  /* height: 30px; */
-  color: #60974c;
-}
-.bi-search1{
-  height: 70px;
-}
-.blogbg{
-    background-image: url(https://vultur.drozd.at/wp-content/uploads/2019/12/blog-list.jpg);
-    position: relative;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat no-repeat;
-    z-index: 1;
-    /* height: 100vh; */
-    height: 100%;
-}
