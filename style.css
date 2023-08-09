@@ -797,6 +797,14 @@
     /* height: 100vh; */
     height: 100%;
 }
+.shopbtn{
+  background-color: rgb(80, 229, 157);
+  color: white;
+}
+.shopbtn:hover{
+  background-color: #ff7029;
+  color: white;
+}
 @media only screen and (max-width: 600px) {
   .abticon {
     /* justify-content: center; */
