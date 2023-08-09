@@ -797,3 +797,9 @@
     /* height: 100vh; */
     height: 100%;
 }
+@media only screen and (max-width: 600px) {
+  .abticon {
+    justify-content: center;
+    margin-left: 140px;
+  }
+}
