@@ -799,7 +799,7 @@
 }
 @media only screen and (max-width: 600px) {
   .abticon {
-    justify-content: center;
+    /* justify-content: center; */
     margin-left: 140px;
   }
 }
